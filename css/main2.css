@@ -1,0 +1,256 @@
+/**{outline: 1px solid red;}*/
+body{font-family: 'Roboto', sans-serif;}
+body h2{font-weight: 100; font-size:2em; line-height: 1; text-transform: uppercase; font-family:'AvenirLTStd-Medium', sans-serif; margin-bottom:30px;}
+/*.list-inline img{margin: auto; width: 28px;background:rgb(50,57,70); border-radius: 50%;}
+.list-inline>li{padding-left: 5px;padding-right: 0px;}
+.list-inline img:hover{background-color: rgb(251,65,65); border-radius: 50%;}
+.list-inline {margin-bottom: 0px;  padding: 5px; float: right;margin-right: 120px;}
+*/
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'AvenirLTStd-Medium', sans-serif;
+
+/*------------------mennu----------*/
+/*.logotipo{margin-left: 80px;}*/
+
+
+/*.section-hero{margin-top: -90px;}
+.menu{background-color:rgb(50,57,70);}
+.menu ul a{font-size: 15px;}*/
+/*#navbar .title_menu{font-family: 'Roboto', sans-serif !important; font-weight:bold !important; font-size:15px !important;}*/
+.navbar-collapse.caret{float: right;margin-top: 10px;margin-left: 5px;}
+#navbar .navbar-default{border-color: none;border-bottom:0px;}
+#navbar-collapse-1{margin-top: 30px;}
+.navbar-default .navbar-nav>li{margin-left: 10px;}
+.navbar-default .navbar-nav>li>a {color: white; padding:10px 15px;}
+.navbar-default .navbar-nav>li:hover{background-color: rgb(251,65,65);color:white;}
+.navbar-default .navbar-nav>li>a:hover{color: white;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{background-color: rgb(251,65,65); color: white; border-radius: 30px;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{background-color: rgb(251,65,65); color: white;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background-color:rgba(251, 65, 65, 0.7);}
+#navbar-collapse-1 .navbar-right{margin-bottom: 10px;}
+
+.navbar-fixed-top{background-color: rgba(255,255,255,0.7); color: white;}
+.navbar-default .navbar-nav>.active>a {background-color: rgb(251,65,65); color: white; border-radius: 30px;}
+.navbar-default .navbar-nav>.active {padding: 0px;}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{color: black;}
+/*.navbar-default .navbar-nav li{padding: 0 15px;}*/
+.navbar-default .navbar-nav li:hover {background-color: rgb(251,65,65); border-radius: 30px;}
+.navbar-default .navbar-nav>li>a:hover{color: white;}
+.navbar-default .navbar-nav .dropdown-menu li{padding: 0px; background-color:white;}
+.navbar-default .navbar-nav .dropdown-menu li a:hover{background:rgb(251,65,65); color: white;}
+.dropdown-menu > li.kopie > a {padding-left:5px;}
+.dropdown-submenu {position:relative;}
+.dropdown-submenu>.dropdown-menu {
+   top:0;left:100%;
+   margin-top:-6px;margin-left:-1px;
+   -webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px; }
+.dropdown-submenu > a:after {
+  border-color: transparent transparent transparent #333;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  content: " ";
+  display: block;
+  float: right;  
+  height: 0;     
+  margin-right: -10px;
+  margin-top: 5px;
+  width: 0;}
+.dropdown-submenu:hover>a:after { border-left-color:#555;}
+.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover { text-decoration: none;}  
+  
+@media (max-width: 767px) {
+  .navbar-nav  {display: inline;}
+  .navbar-default .navbar-brand {display: inline;}
+  .navbar-default .navbar-toggle .icon-bar { background-color: #fff;}
+  .navbar-default .navbar-nav .dropdown-menu > li > a {color: red; background-color:rgb(251,65,65); margin-top: 2px; border-bottom: 1px solid;}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {color:white;}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: white; color:rgb(50,57,70); border-bottom: none;}
+  .navbar-nav .open .dropdown-menu { border-radius: 0;}
+  .dropdown-menu {padding-left: 10px;}
+  .dropdown-menu .dropdown-menu {padding-left: 20px;}
+  .dropdown-menu .dropdown-menu .dropdown-menu { padding-left: 30px;}
+  li.dropdown.open {border: 0px solid red;}
+}
+@media (min-width: 768px) {
+  ul.nav li:hover > ul.dropdown-menu {display: block;}
+  #navbar {text-align: center;}
+}  
+@media only screen and (min-width: 751px ) and (max-width: 767px){
+  .navbar-header{padding-bottom: 38px;}
+  .proyects2 .esconder-mostrar .izquierda{padding: 0; margin-left: 15px;}
+  .proyects2 .esconder-mostrar .derecha{padding: 0; margin-right: 15px;}
+}
+
+
+
+/*------ HEADERR slider y cuadrosinfo -----*/
+/*body {padding-top: 85px; }*/
+#myCarousel .nav a small {display:block;}
+#myCarousel .nav a {border-radius:0px; color:white;}
+.carousel-caption{padding-bottom:250px;}
+#myCarousel .filas{position: relative; margin-top: -240px;}
+#myCarousel img{width: 100%; font-size: cover; height: 670px;}
+
+
+.section-info-header #drop-up .drop-up-item{ float: left; width: 100%; min-height: 100px; position:relative; top: 150px;}
+.section-info-header #drop-up .drop-up-item ._1{background-image: url(../img/2.jpg); background-size:cover;width:100%;}
+.section-info-header #drop-up .drop-up-item ._2{background-image: url(../img/somos.jpg);background-size:cover;width:100%;}
+.section-info-header #drop-up .drop-up-item ._3{background-image: url(../img/programas/alimentaria/_pan.jpg);background-size:cover;width:100%;}
+.section-info-header #drop-up .drop-up-item ._4{background-image: url(../img/programas/agricultura/hipodronica.jpg);background-size:cover;width:100%;}
+.section-info-header #drop-up .drop-up-item .oscuro, .oscuro2, .oscuro3, .oscuro4{background-color: rgba(0,0,0,.5); width: 100%;height: 100%;}
+.section-info-header #drop-up .content{
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 46px;
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;}
+.section-info-header #drop-up .content button a{color: white;}
+.section-info-header #drop-up .content p{padding:30px 15px 60px; color: white;}
+.section-info-header #drop-up{/*height: 250px;*/ /*padding: 0 1%;*/}
+.section-info-header #drop-up h3{ 
+        color: white;
+        background: rgb(251,65,65);
+        position: absolute;
+        bottom: 0;
+        padding: 25px 10px;
+        width: 100%;
+        font-size: 16px;
+        border-radius: 0px 0px 4px 4px;}
+.section-info-header #drop-up h3 &:after{
+            content: "";
+            float: right;
+            position: absolute;
+            padding: 0.5rem;
+            right: -20px;
+            top: -5px;
+            box-shadow: 1px -1px 0 1px white inset;
+            -webkit-box-shadow: 2px -2px white inset;
+            border: solid transparent;
+            border-width: 0 0 2rem 2rem;
+            transition: 0.2s;
+            @include transform(rotate(225deg));
+        }
+
+
+
+
+/*--------------PROYECTOSSS----------*/
+.proyects2{background-color: rgb(21,56,116);}
+.proyects2 .esconder-mostrar {padding: 3em 0em 6em 0em;}
+.proyects2 .esconder-mostrar .proyectos{margin: 1em auto;}
+.proyects2 .esconder-mostrar ul{list-style: none; width: 95%;}
+.proyects2 .esconder-mostrar .izquierda{float: left; padding: 0;}
+.proyects2 .esconder-mostrar .derecha{float: right; padding: 0;}
+.proyects2 .mostrar-esconder a{text-decoration: none;}
+.proyects2 .mostrar-esconder h4 { font-size: 15px; color:white;}
+.proyects2 .capa1, .capa2, .capa3, .capa4, .capa5, .capa6,.capa7,.capa8{
+  border-radius: 0.5em;
+  background-color: transparent;       
+  border:1px solid white;
+  padding: 1em;
+  margin-bottom: 0.3em;
+  color: #fff; }
+.proyects2 .capa1 i, .capa2 i, .capa3 i, .capa4 i, .capa5 i, .capa6 i,.capa7 i,.capa8 i{font-size: 2em; color:white;}
+.proyects2 .mensaje1, .mensaje2, .mensaje3, .mensaje4, .mensaje5, .mensaje6,.mensaje7,.mensaje8{display: none; height: 20em;color: #fff;}
+.proyects2 .img{background-size: cover; background-position: center; width: 100%; height:20em; border-radius: 0.5em;}
+.proyects2 .img1{background-image: url(../img/medicina.jpg);}
+.proyects2 .img2{background-image: url(../img/proyectos.JPG);}
+.proyects2 .img3{background-image: url(../img/produccion.JPG);}
+.proyects2 .img4{background-image: url(../img/industria.jpg);}
+.proyects2 .img5{background-image: url(../img/social.jpg);}
+.proyects2 .img6{background-image: url(../img/vivero.jpg);}
+.proyects2 .img7{background-image: url(../img/medicina.jpg);}
+.proyects2 .img8{background-image: url(../img/medicina.jpg);}
+.proyects2 li:hover{
+    background-color:rgb(0, 150, 183);
+    border-radius: 0.5em;
+}
+
+.nuestro-proyecto img{width: 100%; height: 20em;}
+/*.nuestro-proyecto{margin-top: 2.5em;margin-bottom: 1em;background: rgb(21, 56, 116);}*/
+/*.nuestro-proyecto a{text-decoration: none;color: #fff;}*/
+.nuestro-proyecto .nav-pills li{border: 1px solid #fff;border-radius: 4px;width: 100%; ;margin-bottom: 4px;}
+.nuestro-proyecto .nav-pills a{color: white; padding: 1.7em;}
+.nav-pills>li.active>a{background-color: rgb(0, 150, 183);}
+.nuestro-proyecto .nav>li>a:hover, .catalogo .nav>li>a:hover{background-color: rgb(0, 150, 183);}
+.nuestro-proyecto .nav-pills>li.active{background-color: rgb(0, 150, 183);}
+.nuestro-proyecto .nav-pills>li.active>li{background-color: rgb(0, 150, 183);}
+.nuestro-proyecto .admin-content{color: #fff;text-align: center;}
+.nuestro-proyecto .img{width: 100%; height: 100%;border-radius: 0.5em;}
+
+
+/*-------ABOUTT-------------*/
+.section-about{background-color: rgb(229,229,229); padding: 2em 0em 3.5em;}
+.section-about img{margin: auto; width: 150px;}
+.section-about h4{color: rgb(251,65,65);}
+.section-about p{padding: 30px 0 15px 0;}
+.section-about input{margin: 50px 0px 10px; color: rgb(251,65,65); text-transform: uppercase; padding: 5px 40px; border:1px solid rgb(251,65,65);background: transparent;}
+/*---------PUBLICATIONS----------*/
+.section-publications {padding: 2em 0em 3.5em;}
+.section-publications img{width: 100%; height: 150px;}
+.section-publications .fondo{background: rgb(229,229,229); padding:15px; height: auto;}
+.section-publications .fondo p{padding-top:10px;}
+.section-publications h4{color: rgb(21,56,116);}
+.section-publications a{color: rgb(251,65,65); text-decoration: none;}
+.section-publications input{margin: 20px 0px 10px; color:rgb(21,56,116); text-transform: uppercase; padding:5px 55px; border:1px solid rgb(21,56,116);background: transparent;}
+/*------------auspiciadores_carousel 22-------*/
+.section-aliados{
+  background-color:rgb(251,65,65);            /* #FB605B;*/
+  width: 100%;color: white;padding: 2em 0em 3.5em;}
+.section-aliados h2{margin-bottom: 0em;}
+.section-aliados #media ._fondo {padding: 5px 10px; background-color:white;border: none;border-radius: 15px;}
+.section-aliados #media ._fondo img{width: 80%;}
+.carousel{padding: 0;}
+.media-carousel{padding: 3em 5em 0em 5em;}
+.media-carousel .carousel-control.left {
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;}
+.media-carousel .carousel-control.right {
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 75px;}
+.media-carousel .carousel-indicators {right: 50%;top: auto;bottom: 0px;}
+.media-carousel .carousel-indicators .active{background: #333333;}
+.media-carousel img{width: 230px;height: 100px}
+/*-----------Footer----------- */
+.footer2{background-color: #000;color: #fff; font-family: 'Roboto', sans-serif;}
+.footer2 i{font-size: 25px; height: 25px; width: 25px; color: rgb(251,65,65); margin: auto;}
+.footer2 .fa-chevron-right{color: white;font-size: 13px; margin-right:-10px;}
+.footer2 .contacto2 hr{height: 1px; border: 0; background-color:rgb(251,65,65);}
+.footer2 .footer_menu a{color: white;}
+.contacto2{margin: 30px auto;}
+.contacto2 .comunic p{margin-top: 10px; margin-bottom: 10px;}
+.contacto2 .comunic p a{color:rgb(251,65,65); }
+.blanco-{height: 200px;}
+/*------footer finalll---*/
+.footer-final{background-color: rgb(50,57,70);; color: white; padding:0.5em;}
+.footer-final p{margin-bottom: 0px;}
+
+
+@media (max-width: 750px){
+  #navbar .navbar-fixed-top{padding-bottom: 38px;}
+  #navbar .Logotype {margin-left: 65px;}
+  /*.logotipo{margin-left: 65px;}
+  .list-inline img{width: 37px;}
+  .list-inline>li{padding-left: 5px;}*/
+  #myCarousel .filas{position: relative; margin-top: 15px;}
+  .section-info-header .all_fondo{margin: 10px 0px 5px 0px;}
+  .proyects2 .esconder-mostrar .izquierda{margin: auto; float: none;}
+  .proyects2 .esconder-mostrar .derecha{margin: auto;float: none;}
+}
+

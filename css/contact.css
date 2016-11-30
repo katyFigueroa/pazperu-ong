@@ -1,0 +1,48 @@
+/**{outline: 1px solid red;}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Titillium+Web');
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+font-family: 'Fira Sans', sans-serif;
+
+body{font-family: 'Roboto', sans-serif; }
+.imagen-hero{
+  background-image: url("../img/fachada.jpg");
+  /*background-size: cover;*/
+  width: 100%;
+  height: 450px;
+  position: relative;
+}
+
+.section-content .contenedor{background-color: rgb(229,229,229);padding: 1em 0em 0em 0em;}
+.section-content .file_contact{ margin: 0px 15px 20px;}
+.section-content h1{color:rgb(50,57,70);font-weight: 100; font-size: 40px; line-height: 1; text-transform: uppercase; text-shadow: 0 1px 1px #fff;}
+.section-content .formulario input{width: 100%;padding: 8px 11px;border: 1px solid gray;}
+.section-content .formulario textarea{width: 100%;padding: 8px 11px; border: 1px solid gray; margin-bottom: 10px;}
+.section-content .formulario .submit-btn{float: right !important;font-weight: 400; width: 100px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    background: rgb(40,57,70);
+    cursor: pointer;}
+.section-content .file_mapa{margin-right:15px, margin-left:15px;}
+.section-content iframe{width: 100%;}
+.section-content .fa{font-size: 30px; color:rgb(40,57,70); ;margin-top: 10px; width: 35px;}
+.section-content .contacto{padding-bottom:0px; margin:150px 100px 0px;}
+
+
+@media (max-width: 750px){
+	.imagen-hero .titulo{width: 100%;}
+	.section-content .file_contact{margin-bottom: 20px; margin-left:0px;margin-right:0px;}
+
+  .slider-contact	#custom_carousel .controls .nav ul{display: inline-block;}
+}
+@media only screen and (min-width: 290px ) and (max-width: 991px){
+  .section-content .contacto{ margin:50px 0px 10px;}
+}
+@media only screen and (min-width: 990px ) and (max-width: 1199px){
+  .section-content .contacto{ margin:120px 0px 10px 50px;}
+}
+
+
+
